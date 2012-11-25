@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pluggable type="theme">
+	<name>extruder</name>
+	<author>manda.moore</author>
+	<url>http://manda-moore.com/</url>
+	<version>1.1</version>
+	<template_engine>rawphpengine</template_engine>
+	<description>Theme based on jquery example mb.extruder. Updated 1-18-11 for 0.7-dp3</description>
+</pluggable>

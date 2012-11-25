@@ -1,0 +1,153 @@
+.extruder{position:fixed; cursor:default; background:url("elements/extruder_blank.png");}
+
+	.extruder .header{height:27px;}
+
+	.extruder .content{display:none; background:url("elements/extruder_bgnd.png") repeat-y bottom left;}
+
+		.extruder.open .content{-moz-box-shadow:#999 2px -2px 2px; -webkit-box-shadow:#999 2px -2px 2px;}
+
+	.extruder .footer{display:block; spadding:5px; height:10px; background:#000; -moz-border-radius: 0 0 8px 8px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px;}
+	
+	.extruder.top .flap{color:white; text-shadow: #000 2px 2px 2px; font:18px/18px Arial, Helvetica, sans-serif; text-align:center; display:block; padding:0 5px 5px 5px; height:30px; background:url("elements/extruder_flap.png") no-repeat top center; cursor:pointer;}
+
+	.extruder.left{/*position:absolute;*/ height:100%; background:url("elements/extruder_blank.png");}
+
+		.extruder.left .content{display:block; border-right:3px solid #000;}
+
+		.extruder.left .ext_wrapper{height:100%;}
+
+		.extruder.left .footer{display:none;}
+
+		.extruder.left .flap{font-size:18px; color:white; top:0; padding:10px 0px 10px 10px; background:#000; width:30px; /*height:150px;*/ position:absolute; /*overflow:hidden;*/ right:-2px; -moz-border-radius:0 10px 10px 0; -webkit-border-top-right-radius:10px; -webkit-border-bottom-right-radius:10px; -moz-box-shadow:#666 2px 0px 3px; -webkit-box-shadow:#666 2px 0px 3px;}
+
+:focus {outline: 0;}
+
+
+#extruderLeft {font-family: Helvetica, Geneva, Arial;font-weight: normal;}
+	
+	#extruderLeft h1, #extruderLeft h2, #extruderLeft p {margin-left: 20px;}
+	
+	#extruderLeft a {color: #bbb;text-decoration: none;}
+	#extruderLeft a:hover {color: #ddd;}
+	#extruderLeft p.foot a {color: #777;}
+	
+	#extruderLeft h1 {color: #fff;font-size: 16px;}
+	#extruderLeft p {color: #555;font-size: 11px;text-align: left;margin-top: 40px;}
+
+/*--- begin main css ---*/
+    body{
+      font-family:Geneva, Arial, Helvetica, sans-serif;
+      margin:10px;
+      color: #333;
+    }
+    .wrapper{
+      font-family:Geneva, Arial, Helvetica, sans-serif;
+      padding-top:90px;
+      padding-left:50px;
+    }
+    .wrapper .post{
+      font-family:Geneva, Arial, Helvetica, sans-serif;
+      padding-top:50px;
+      font-size: 12px;
+      
+    }
+    .wrapper h1{
+      font-family:Geneva, Arial, Helvetica, sans-serif;
+      font-size:26px;
+    }
+    .wrapper .meta {
+    	color: #999;
+    	font-size: 10px;
+    	margin-bottom: 10px;
+    	margin-left: 15px;
+    	margin-top: -5px;
+    }
+    .wrapper .postcontent {
+    	margin-left: 15px;
+    	margin-bottom: 50px;
+    }
+    .wrapper .navigation {
+	    margin-left: 15px;
+    	font-family: Geneva, Arial, Helvetica, sans-serif;
+    	font-size: 13px;
+    }
+    .wrapper .navigation a{
+    	padding-right: 5px;
+    	padding-left: 5px;
+    	color: #000; text-decoration: none;
+    }
+    .wrapper blockquote{
+      margin-top:20px;
+      width:600px;
+      font:18px/24px Geneva, Arial, Helvetica, sans-serif;
+      color:gray;
+      font-size: .80em;      
+    }
+    .wrapper a {
+    	text-decoration: none;
+    	color: #881d0e 
+    }
+    .wrapper a:hover {
+    	color: #333;
+    }
+    .wrapper img {
+    	max-width: 550px;
+    	border: 1px solid #ddd;
+    	padding: 1px;
+    }
+    span.btn{
+      padding:10px;
+      display:inline-block;
+      cursor:pointer;
+      font:12px/14px Geneva, Arial, Helvetica, sans-serif;
+      color:#aaa;
+      background-color:#eee;
+      -moz-border-radius:10px;
+      -webkit-border-radius:10px;
+      -moz-box-shadow:#999 2px 0px 3px;
+      -webkit-box-shadow:#999 2px 0px 3px;
+    }
+    span.btn:hover{
+      background-color:#000;
+    }
+
+      /*
+      custom style for extruder
+      */
+
+    .extruder.left.a .flap{
+      font-size:18px;
+      color:white;
+      top:0;
+      padding:10px 0px 10px 10px;
+      background:#772B14;
+      width:30px;
+      position:absolute;
+      right:-2px;
+      -moz-border-radius:0 10px 10px 0;
+      -webkit-border-top-right-radius:10px;
+      -webkit-border-bottom-right-radius:10px;
+      -moz-box-shadow:#666 2px 0px 3px;
+      -webkit-box-shadow:#666 2px 0px 3px;
+    }
+
+    .extruder.left.a .content{
+      border-right:3px solid #772B14;
+    }
+
+    .extruder.top .optionsPanel .panelVoice a:hover{
+      color:#fff;
+      background: url("elements/black_op_30.png");
+      border-bottom:1px solid #000;
+    }
+    .extruder.top .optionsPanel .panelVoice a{
+      border-bottom:1px solid #000;
+    }
+
+    .extruder.left.a .flap .flapLabel{
+      background:#772B14;
+    }
+    
+ /** Form Styles **/
+ textarea,input {border: 1px solid #eee;color: #777;}
+input:focus, input:hover, textarea:focus, textarea:hover {background: #fdfdfd;border:1px solid #ddd;}
