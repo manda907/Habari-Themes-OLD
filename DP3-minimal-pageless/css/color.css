@@ -1,0 +1,54 @@
+@import url("../style.css");
+
+/*
+Created for personal use by Amanda Moore www.manda-moore.com
+*/
+
+body { background: #f3f3f3;}
+
+pre { background-color: #fffdea; color: #999;}
+
+h1, h1 a { color: #bbb;}
+
+h1 a:hover {color: #aaa;}
+
+#content {color: #333;}
+
+.entry { background: #fff; border-right: 3px solid #bbb; color: #666666;}
+
+.entry.desktop, .entry.photos, .entry.photography {border-right: 3px solid #98cee5!important;}
+
+.entry.code {border-right: 3px solid #9BCD9B!important;}
+
+.entry.music {border-right: 3px solid #FFBBFF!important;}
+
+.entry.theme {border-right: 3px solid #CD8C95!important;}
+
+.entry h2 {color: #666666;}
+
+p.meta, .tooltip {color: #ccc;}
+
+p.meta a, .tooltip a {color: #bbb; }
+
+p.meta a:hover, .tooltip a:hover {color: #777;}
+
+.entry a {color: #c9366e;}
+
+.entry a:hover, .entry a.current-page {color: #555;}
+
+#sidebar, #sidebar ul li a, #footer a {color: #ccc;text-decoration: none;}
+
+#sidebar ul li a:hover, #footer a:hover {color: #999;}
+
+#footer { color: #bbb;}
+
+textarea, input {background: #fff; color: #999; border: 1px solid #eee;}
+
+.required {color: #8f0306;}
+
+input[type="submit"]:hover {background: #eee;}
+
+a.return { color: #999!important;float: right;}
+a:hover.return {color: #555!important; }
+
+.tooltip {text-align: right;}
