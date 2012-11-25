@@ -1,0 +1,289 @@
+*, html {
+	margin: 0px; padding: 0px;
+}
+
+body {
+	font: 11px/14px normal Helvetica,Arial;
+	color: #333;
+	background: #eee;
+}
+
+.spacer {
+	height: 5px;
+}
+
+.hr {
+	border-bottom: 1px solid #eee;
+}
+
+img, object {
+	max-width: 600px;
+/*	left: 150px;*/
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 0px 0px 5px #aaa;
+	-moz-box-shadow: 0px 0px 5px #aaa;
+	margin-left: 10px;
+}
+
+img.nostyle {
+	background: none;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:none;
+}
+
+a img {
+	background: none;
+	border: none;
+	text-decoration: none;
+}
+
+a:hover img, a.lightview:hover {
+	background: none!important;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+/*** TYPOGRAPHY ***/
+h1.logo {
+	font-size: 24px;
+	text-align: center;
+	height: 32px;
+}
+
+h1.logo a {
+	color: #555;
+}
+
+h2 a {
+	font-size: 18px;
+	height: 22px;
+	color: #555;
+	margin-bottom: 5px;
+}
+
+h3, h4, h5, h3 a, h4 a, h5 a {
+	color: #555;
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+a {
+	text-decoration: none;
+	padding: 1px;
+}
+
+a:hover, #pagination a.current-page {
+	background: #333;
+	color: #fff!important;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	text-decoration: none;
+}
+
+
+code, pre {
+	font: 9px monaco, courier;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+}
+
+/*** PAGE ***/
+#page {
+	background: #fff;
+	width: 800px;
+	margin: 0px auto;
+	padding: 10px;
+	top: 3px;
+	margin-bottom: 10px!important;
+	border: 1px solid #eee;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-box-shadow: 0px 0px 5px #ddd;
+	-webkit-box-shadow: 0px 0px 5px #ddd;
+}
+
+/*** TOP ***/
+#top {
+	min-height: 50px;
+}
+
+.menu {
+	width: 100%;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.menu li {
+	float: left;
+	padding-bottom: 3px;
+	padding-top: 3px;
+/*	padding-right: 1px;*/
+	display: inline;
+}
+
+.menu li a {
+	color: #999;
+	padding: 3px!important;
+}
+
+.menu li:hover a:hover, .menu li a.current_page_item {
+	background: #333;
+	color: #eee;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+}
+
+.menu li.social {
+	float: right;
+}
+
+.menu li.social a {
+	color: #ddd!important;
+}
+
+.menu li.social a:hover {
+	background: none;
+	color: #aaa!important;
+}
+
+/*** CONTENT ***/
+#content {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.post {
+	margin-bottom: 40px;
+}
+
+.meta, .metalinks {
+	font-size: 9px;
+	color: #ccc;
+	margin-left: 5px;
+	height: 16px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.meta a {
+	color: #aaa;
+}
+
+.post p {
+	font-size: 11px;
+	line-height: 16px;
+}
+
+.post p a, .comments a {
+	color: #A9014B;
+}
+
+#pagination a {
+	color: #333;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-left: 5px;
+}
+
+/*** COMMENTS ***/
+ul#commentlist {
+	margin-bottom: 10px;
+}
+
+li.comment {
+	margin-bottom: 5px;
+}
+
+.comment-content {
+	color: #777;
+}
+
+.comments {
+	margin-top: 20px;
+}
+
+.comments form {
+	margin-top: 10px;
+}
+
+.comments textarea, .comments input {
+	border: 1px solid #ddd;
+	color: #aaa;
+	font-size: 11px;
+	line-height: 14px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 3px;
+	margin: 3px;
+}
+
+.comments textarea:hover, .comments input:hover {
+	border: 1px solid #ccc;
+	outline: none;
+	-moz-outline-style: none; 
+}
+
+.comments textarea:active, .comments input:active {
+	border: 1px solid #bbb;
+	outline: none;
+	-moz-outline-style: none; 
+}
+
+.comments textarea:focus, .comments input:focus {
+	outline: none;
+	-moz-outline-style: none; 
+}
+
+.comments input[type="submit"] {
+	background: #333;
+	border: 1px solid #333;
+	color: #eee;
+	padding: 3px;
+	margin: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.comments input[type="submit"]:hover {
+	background: #111;
+	color: #eee;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.comments .required {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+/*** FOOTER ***/
+#footer {
+	height: 15px;
+	text-align: right;
+}
+
+#footer p {
+	color: #bbb;
+	font-size: 9px;
+}
+
+#footer p a {
+	color: #aaa;
+}
+
+#footer p a:hover, .meta a:hover {
+	color: #777!important;
+	background: none;
+}
