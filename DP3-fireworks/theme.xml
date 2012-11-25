@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="theme">
+	<name>Fireworks</name>
+	<author url="http://manda-moore.com">Amanda Moore</author>
+	<version>1.1</version>
+	<url>http://manda-moore.com</url>
+	<description><![CDATA[A port of Fireworks from Free CSS Templates]]></description>
+	
+	<template_engine>rawphpengine</template_engine>
+	
+	<copyright>2011</copyright>
+</pluggable>
