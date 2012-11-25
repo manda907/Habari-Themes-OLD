@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="theme">
+	<name>Super Clean</name>
+	
+	<author url="http://manda-moore.com/">manda.moore</author>
+	
+	<version>1.0</version>
+	<url>http://manda-moore.com</url>
+	<description><![CDATA[A simple white & blue theme]]></description>
+	
+	<template_engine>rawphpengine</template_engine>
+
+	<copyright>2010</copyright>
+	
+	<help>
+	<requires>
+		<feature url="http://habariproject.org/">Page Menu</feature>
+	</requires>
+	
+	<recommends>
+		<feature url="http://www.lildude.co.uk/projects/hb-audio-player">HB Audio Player</feature>		
+	</recommends>
+	</help>
+	
+</pluggable>

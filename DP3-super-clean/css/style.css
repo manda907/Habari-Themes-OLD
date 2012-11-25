@@ -1,0 +1,88 @@
+/*
+Amanda Moore
+www.manda-moore.com
+
+Based on Clearmint for Mint
+http://rustymitchell.com/downloads/clearmint_ice/
+(c) 2007
+
+Created for personal use only - please do not copy and use!!!
+*/
+
+
+/**** 
+	General 
+		****/
+body { background: #fff; color: #444; font-family: 'Lucida Grande', Verdana, Arial; font-size: 10px; }
+
+a, a:hover { text-decoration: none; }
+a { color: #55a2d1; -webkit-transition: color .25s ease-in; -moz-transition: color .25s ease-in; -o-transition: color .25s ease-in;}
+a:hover { color: #19597e; }
+
+p { color: #444; line-height: 16px; }
+
+pre, code { color: #999; font-family: Monaco, "Courier New", monospace; font-size: 9px; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; margin-left: 15px; border-left: 2px solid #eee; padding-left: 5px; }
+
+#content p strong { color: #222; font-weight: bolder; }
+
+#small { font-size: 10px; }
+#large { font-size: 12px; }
+.fontresize { display: none; /* hide from non-Javascript browsers */ }
+
+
+/****
+	Header
+		****/
+#header { background: #333; color: #fff; height: 28px; position: fixed; z-index: 1000; width: 100%; top: 0; left: 0;  line-height: 24px; -webkit-box-shadow: 0px 1px 5px #bbb; -moz-box-shadow: 0px 1px 5px #bbb; }
+#header .title {margin-left: 10px; float: left; font-size: 12px; font-weight: bold; padding-top: 2px; }
+.title a { color: #fff; line-height: 24px; }
+
+
+/****
+	Menu
+		****/
+#header .nav {padding-right: 15px; float: right; font-size: 9px; font-weight: normal; color: #999;}
+.nav a { color: #afdefa; padding-right: 4px; }
+.nav a:hover { color: #fff; }
+.nav .pages { margin-right: 40px; }
+.pages ul { list-style-type: none; }
+.pages ul li { display: block; float: left; margin-right: 5px; }
+
+
+/****
+	Content
+		****/
+#content { width: 90%; float: left; margin-top: 40px; }
+.entry {background: url(../images/corner.gif) no-repeat top left; padding-top: 1px; padding-left: 10px; margin-bottom: 50px; }
+.entry h2 { font-size: 16px; line-height: 16px; color: #555; font-family: Helvetica, Arial; font-weight: normal;}
+.meta { background: #FAFAFA; border-bottom: 1px solid #F5F5F5; border-top: 1px solid #F5F5F5; font-size: 0.9em; line-height: 13px; font-weight: bold; color: #999; margin-bottom: 25px; width: auto; }
+.meta a { color: #666; }
+.meta a:hover { color: #333; }
+.entry img, #picasaphotos img, object { max-width: 500px; border: 1px solid #ddd; padding: 2px; -webkit-box-shadow: 0px 0px 5px #ccc; -moz-box-shadow: 0px 0px 5px #ccc; margin: 10px; }
+.entry img:hover, #picasaphotos img:hover { border: 1px solid #ccc; -webkit-box-shadow: 0px 0px 6px #aaa; -moz-box-shadow: 0px 0px 6px #aaa; }
+img.nostyle, img.nostyle:hover {border:none; background:none; -webkit-box-shadow: none; -moz-box-shadow:none;}
+
+
+/****
+	Pagination
+		****/
+.navigation {background: #fbfbfb; height: 40px; padding-left: 10px; padding-top: 20px; font-size: 12px !important; border-top: 1px solid #F5F5F5;}
+.navigation a {color: #999;}
+.navigation a:hover, .navigation a.current-page {color: #333;}
+
+
+/****
+	Comments & Comment Form
+		****/
+#commentlist {margin-bottom: 50px;}
+.comments {margin-bottom: 30px;}
+input, textarea { border: 1px solid #ddd; color: #999; }
+input[type="submit"] {background: #fff;-webkit-box-shadow: 0px 0px 3px #ccc; -moz-box-shadow: 0px 0px 3px #ccc;-webkit-transition: color .25s ease-in; -moz-transition: color .25s ease-in; -o-transition: color .25s ease-in; color: #333; }
+input[type="submit"]:hover {background: #fff;-webkit-box-shadow: 0px 0px 3px #bbb; -moz-box-shadow: 0px 0px 3px #bbb; color: #55a2d1}
+	.required {color: #a90307; font-size: smaller !important; font-weight: bold; }
+
+
+/****
+	Footer
+		****/
+#footer { color: #999; float: left; clear: both; font-size: 0.9em; line-height: 1.4em; padding-bottom: 5px; }
